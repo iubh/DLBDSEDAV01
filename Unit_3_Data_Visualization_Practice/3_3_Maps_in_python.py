@@ -36,13 +36,12 @@ map
 # %% Save the map
 map.save("map.html")
 
-# %% center coordinates of map [latitude, longitude]
-coords = [52.520008, 13.404954]
-marker1 = [52.515816, 13.454293]
-marker2 = [52.48388, 13.3477]
-
 # %% create the map
 map = folium.Map(location = coords, tiles = 'Stamen Toner')
+
+# %% generate coordinates for markers
+marker1 = [52.515816, 13.454293]
+marker2 = [52.48388, 13.3477]
 
 # %% add markers
 folium.Marker(marker1, popup = 'Marker 1').add_to(map)
@@ -106,3 +105,5 @@ folium.LayerControl().add_to(map)
 
 # %% show the map
 map
+
+# %%

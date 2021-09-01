@@ -88,9 +88,12 @@ jul_flights = flights.query("month == 'Jul'")
 fig, ((ax1,ax2),(ax3,ax4)) = plt.subplots(2,2, \
                                 figsize=(20,20))
 # scatter plot
-ax1.scatter(jan_flights["year"],                                                          jan_flights["passengers"],label="January")
-ax1.scatter(apr_flights["year"],                                                           apr_flights["passengers"],label="April")
-ax1.scatter(jul_flights["year"],                                                           jul_flights["passengers"],label="July")
+ax1.scatter(jan_flights["year"], \
+    jan_flights["passengers"], label="January")
+ax1.scatter(apr_flights["year"], \
+    apr_flights["passengers"], label="April")
+ax1.scatter(jul_flights["year"], \
+    jul_flights["passengers"], label="July")
 
 # connected scatter plot
 ax2.plot(jan_flights["year"], \

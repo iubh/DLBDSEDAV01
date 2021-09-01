@@ -27,7 +27,7 @@ sns.histplot(x, bins=40, ax=ax3)
 sns.histplot(x, bins=5, kde=True, ax=ax4)
 
 # cumulative histogram
-sns.histplot(x,bins=20,  element="step", fill=False,
+sns.histplot(x, bins=20, element="step", fill=False,
              cumulative=True, stat="density", ax=ax5)
 
 # cumulative density function
@@ -36,11 +36,6 @@ sns.kdeplot(x, cumulative=True, ax=ax6)
 plt.show()
 
 ## Stacked histograms and overlapping density plots
-
-# %% import modules
-import matplotlib.pyplot as plt
-import numpy as np
-import seaborn as sns
 
 # %% load sample data
 penguins = sns.load_dataset("penguins")
