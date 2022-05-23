@@ -60,7 +60,7 @@ print(modes)
 # %%
 import statistics # import statistics library
 x = [1,2,4,6,8,4] # list with data values
-modes = statistics.mode(x) # get median of x
+modes = statistics.mode(x) # get mode of x
 
 print(modes)
 # output: 4   
@@ -76,7 +76,7 @@ print(my_var)
 # %%
 import statistics # import statistics library
 x = [1,2,4,6,8,4] # list with data values
-my_std = statistics.stdev(x) # get variance of x
+my_std = statistics.stdev(x) # get standard deviation of x
 
 print(my_var)
 # output: 2.563  
