@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # IU - International University of Applied Science
 # Exploratory Data Analysis and Visualization
 # Course Code: DLBDSEDAV01
@@ -298,4 +297,3 @@ my_std = my_variance**0.5
 
 print(my_std)
 # 14.041140568589107
->>>>>>> de896f6b00695b60f815de2033c8beaa3b4b0167
